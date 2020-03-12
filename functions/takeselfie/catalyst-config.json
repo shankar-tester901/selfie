@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "selfie",
+		"stack": "node10",
+		"type": "event"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

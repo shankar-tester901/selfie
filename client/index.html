@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>sampleApp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css" type="text/css" media="all">
+        <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+        <script src="https://js.zohostatic.com/catalystclient/0.0.1/catalystWebSDK.js"></script>
+        <script>
+            let cred = new catalystCredential();
+            cred.loadFromJSON({
+                project_Id: 343000000063001,
+                zaid: 10018176339
+            });
+            catalyst.initApp(cred, {});
+
+        </script>
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="column" style="background-color:rgb(255,255, 128, .5);">
+                <div class="camera">
+                    <video id="video" width="420" height="440">Video stream not available.</video>
+                    <div>
+                        <button id="startbutton" class="button">Take Selfie</button>
+                        <button id="stopbutton" class="button">Camera Off </button><br>
+                        <button id="start_Camera_button" class="button">Camera On</button><br>
+                    </div>
+                    <!-- p> The Canvas</p -->
+
+                    <canvas id="canvas" hidden>
+                    </canvas>
+
+                    <p><b>Hey Beautiful!</b></p>
+
+                    <div class="output">
+                        <img id="photo" name="selfieImage" alt="The screen
+                            capture
+                            will appear in this box." width="500" height="400">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column" style="background-color:rgb(182, 238, 175);">
+                <p><b>A Thing of Beauty is a Joy for Ever ... So hold on, takes a bit of time to Deliver </b></p>
+                <div id=" backgrnd-inner">
+                    <div id="result_output">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </body>
+
+</html>

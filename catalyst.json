@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "targets": [
+      "selfie"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  },
+  "applogic": {
+    "targets": [
+      "selfie"
+    ],
+    "ignore": [],
+    "source": "applogic"
+  }
+}

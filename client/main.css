@@ -1,0 +1,46 @@
+.thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  .smaller-image {
+    width: 250px;
+  }
+  .golden-background {
+	background-color:#E1F4F7;
+	width: 400px;
+  }
+  .yellow-background {
+	background-color: yellow;
+	width: 400px;
+  }
+  img {
+	filter: grayscale(50%);
+  }
+  * {
+	box-sizing: border-box;
+  }
+
+  .row {
+	display: flex;
+  }
+
+  /* Create two equal columns that sits next to each other */
+  .column {
+	flex: 50%;
+	padding: 20px;
+
+  }
+  .button {
+  background-color: #4c6faf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
