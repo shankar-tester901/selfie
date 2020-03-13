@@ -1,7 +1,8 @@
 {
   "functions": {
     "targets": [
-      "selfie"
+      "selfie",
+      "delete_selfies"
     ],
     "ignore": [],
     "source": "functions"
